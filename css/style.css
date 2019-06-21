@@ -1,0 +1,60 @@
+/*global8=*/
+.container {
+  margin: auto;
+}
+
+
+.head {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+  padding: 10px 10px;
+  display: inline;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 450px;
+}
+
+.foot {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  align: bottom;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 15px;
+}
