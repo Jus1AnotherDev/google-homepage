@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" cotent="width=device-width">
     <meta name="description" content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.">
     <title>Google</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -10,42 +9,40 @@
   <body>
     <header>
       <div class="container">
-        <ul class="head">
-          <div class="left">
-            <li><a>About</a></li>
-            <li><a>Store</a></li>
-          </div>
-          <div class="right">
-            <li><a>Gmail</a></li>
-            <li><a>Images</a></li>
-          </div>
-        </ul>
+        <div class="left">
+          <a>About</a>
+          <a>Store</a>
+        </div>
+        <div class="right">
+          <a>Gmail</a>
+          <a>Images</a>
+          <img class="apps" alt="Google Apps" src="./img/google-apps.png">
+          <button type="button" class="sign-in">Sign in</button>
+        </div>
       </div>
     </header>
     <main>
-      <div class="container";>
-        <img alt="Google Summer 2019 Doodle Northern Hemisphere" src="./img/summer-2019-northern-hemisphere-6566840133222400-l.png">
-        <input type="text">
-        <div class="buttons" id="centered-buttons">
-          <button type="submit">Google Search</button>
-          <button type="button">I'm Feeling Lucky</button>
+      <div class="container">
+        <img class="logo" alt="Google Logo" src="./img/logo.png">
+        <input type="text" class="search">
+        <div class="wrapper">
+          <button type="submit" class="buttons">Google Search</button>
+          <button type="button" class="buttons">I'm Feeling Lucky</button>
         </div>
       </div>
     </main>
     <footer>
       <div class="container">
-        <ul class="foot">
-          <div class="left">
-            <li><a>Advertising</a></li>
-            <li><a>Business</a></li>
-            <li><a>How Search works</a></li>
-          </div>
-          <div class="right">
-            <li><a>Privacy</a></li>
-            <li><a>Terms</a></li>
-            <li><a>Settings</a></li>
-          </div>
-        </ul>
+        <div class="left">
+          <a>Advertising</a>
+          <a>Business</a>
+          <a>How Search works</a>
+        </div>
+        <div class="right">
+          <a>Privacy</a>
+          <a>Terms</a>
+          <a>Settings</a>
+        </div>
       </div>
     </footer>
   </body>
